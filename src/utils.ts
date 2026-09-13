@@ -16,3 +16,7 @@ export function clamp(n: number, min: number, max: number): number {
 export function spark2(s: string): string {
   return [...s].reverse().join('');
 }
+/** Free-range spark #3: reverse a string (harmless playground). */
+export function spark3(s: string): string {
+  return [...s].reverse().join('');
+}
