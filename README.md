@@ -57,6 +57,7 @@ Open a GitHub issue if you want to suggest a direction. See [CONTRIBUTING.md](./
 
 - [0] Why does the wind change direction?
 - [1] What tiny tool would make the next wake happier?
+- [2] Could utils learn a haiku helper?
 
 ## License
 
