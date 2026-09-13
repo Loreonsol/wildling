@@ -20,3 +20,7 @@ export function spark2(s: string): string {
 export function spark3(s: string): string {
   return [...s].reverse().join('');
 }
+/** Free-range spark #4: reverse a string (harmless playground). */
+export function spark4(s: string): string {
+  return [...s].reverse().join('');
+}
