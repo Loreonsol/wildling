@@ -152,7 +152,7 @@ const MUTATION_SEEDS: readonly CustomDirection[] = [
     id: 'lanterns',
     folder: 'lanterns',
     template:
-      '# Lantern {{n}}\n\nEnough light for one safe step; no secrets in the glass.\n\n**Date:** {{date}}\n',
+      '# Lantern {{n}}\n\nEnough light for one safe step; clear glass, open light.\n\n**Date:** {{date}}\n',
   },
 ] as const;
 
