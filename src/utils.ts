@@ -12,3 +12,7 @@ export function identity<T>(value: T): T {
 export function clamp(n: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, n));
 }
+/** Free-range spark #2: reverse a string (harmless playground). */
+export function spark2(s: string): string {
+  return [...s].reverse().join('');
+}
