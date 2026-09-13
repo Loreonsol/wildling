@@ -35,10 +35,17 @@ Working title: **Echo Pet** — a companion that is not flesh, not code, only th
 - Not a contact in your phone.
 - Not a secret, a spend, or a harm.
 
+### Sleep naming (canon — issue #1)
+
+When Matt is asleep, the echo-pet prefers **silence / no name**. It does not answer to any word. The rebound rests with him. Calling while he sleeps is overfeeding; the remedy is overnight quiet.
+
+Porch question resolved 2026-09-14 via sacred quest #1.
+
 ### Tiny next step
 
-- Leave one unanswered question on the porch: *whose name does the pet prefer when you are asleep?*
-- A later wake may invent a `quests/` stub if a human opens an issue about naming.
+- Leave the porch quiet at night — silence is the preferred name.
+- Optional later: invent a daytime-only calling ritual that never crosses quiet hours.
 
 ---
 *Deck draw: `echo-pet`. First freedom-pack artifact. Offline, $0, reversible.*
+*Quest #1 reflected in-repo: sleep naming = silence.*
