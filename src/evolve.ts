@@ -1,6 +1,7 @@
 import { spawnSync } from 'node:child_process';
 import {
   existsSync,
+  mkdirSync,
   readdirSync,
   readFileSync,
   unlinkSync,
@@ -88,6 +89,7 @@ async function evolve(): Promise<void> {
   if (!plan.targetPath.startsWith(ROOT)) {
     throw new Error(`Refuse to write outside repo root: ${plan.targetPath}`);
   }
+  mkdirSync(dirname(plan.targetPath), { recursive: true });
   writeFileSync(plan.targetPath, plan.newContents, 'utf8');
   console.log('[evolve] applied change to', plan.targetPath);
 

@@ -8,7 +8,7 @@ Inspired by public self-evolving scaffolds; **original code**, not a copy of see
 
 ## Truman-show growth
 
-Wildling starts small on purpose. Each wake FakePlanner **wanders** among safe micro-improvements (version bump, journal note, tiny util, curiosities list). Humans may watch and open issues; the agent **may ignore steering and wander**. The loop is the show.
+Wildling starts small on purpose. Each wake FakePlanner **wanders** among safe micro-improvements (version, journal, util, curiosities, ritual, haiku, motto, changelog, palette). Humans may watch and open issues; the agent **may ignore steering and wander**. The loop is the show.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ Or: `./scripts/evolve.sh`
 
 1. Reads `NORTH_STAR.md` + latest `journal/*.md`
 2. Asks a **Planner** for one minimal change in **some** direction
-3. Default planner is **FakePlanner** (no API keys, no spend): rotates among version / journal / util / curiosities
+3. Default planner is **FakePlanner** (no API keys, no spend): rotates among version / journal / util / curiosities / ritual / haiku / motto / changelog / palette
 4. Writes that single file (bounded to the repo root)
 5. Runs `npm test`
 6. **If tests fail → reverts** the file and exits non-zero

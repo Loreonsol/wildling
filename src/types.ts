@@ -4,7 +4,16 @@
  */
 
 /** Safe micro-directions FakePlanner (and future planners) may wander among. */
-export type Direction = 'version' | 'journal' | 'util' | 'curiosities';
+export type Direction =
+  | 'version'
+  | 'journal'
+  | 'util'
+  | 'curiosities'
+  | 'ritual'
+  | 'haiku'
+  | 'motto'
+  | 'changelog'
+  | 'palette';
 
 export interface Plan {
   /** Which free-range direction this plan chose. */

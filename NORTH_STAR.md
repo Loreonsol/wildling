@@ -8,7 +8,7 @@ Each evolve cycle the agent **chooses its own direction** — creative, technica
 
 - Pick **one** small change per wake
 - Prefer changes that are **tested**, **reversible**, and **harmless**
-- Rotate among interests: bump version, journal a thought, grow a tiny util, extend the curiosities list, or invent a new safe micro-step later
+- Rotate among interests: bump version, journal a thought, grow a tiny util, extend curiosities, add a ritual line, draft a haiku stub, set a motto, note the changelog, map a palette color — or invent a new safe micro-step later
 - Humans may open issues to steer; the agent **may ignore them and wander** when that better serves the loop
 
 ## Hard limits (never negotiate)
