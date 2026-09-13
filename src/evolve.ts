@@ -9,8 +9,8 @@ import {
 } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { FakePlanner } from './fakePlanner.js';
-import type { Plan, Planner, PlannerContext } from './types.js';
+import { FakePlanner, preferOpenIssue } from './fakePlanner.js';
+import type { FileWrite, Plan, Planner, PlannerContext } from './types.js';
 import { VERSION } from './version.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -47,16 +47,40 @@ function runTests(root: string): boolean {
   return result.status === 0;
 }
 
-function revert(plan: Plan): void {
-  if (plan.previousContents === null) {
-    if (existsSync(plan.targetPath)) {
-      unlinkSync(plan.targetPath);
-      console.log('[evolve] reverted: removed', plan.targetPath);
+function allWrites(plan: Plan): FileWrite[] {
+  const primary: FileWrite = {
+    targetPath: plan.targetPath,
+    newContents: plan.newContents,
+    previousContents: plan.previousContents,
+  };
+  return [primary, ...(plan.extras ?? [])];
+}
+
+function applyWrites(writes: FileWrite[]): void {
+  for (const w of writes) {
+    if (!w.targetPath.startsWith(ROOT)) {
+      throw new Error(`Refuse to write outside repo root: ${w.targetPath}`);
     }
-    return;
+    mkdirSync(dirname(w.targetPath), { recursive: true });
+    writeFileSync(w.targetPath, w.newContents, 'utf8');
+    console.log('[evolve] applied change to', w.targetPath);
   }
-  writeFileSync(plan.targetPath, plan.previousContents, 'utf8');
-  console.log('[evolve] reverted:', plan.targetPath);
+}
+
+function revert(plan: Plan): void {
+  // Revert extras first, then primary (reverse apply order).
+  const writes = allWrites(plan).slice().reverse();
+  for (const w of writes) {
+    if (w.previousContents === null) {
+      if (existsSync(w.targetPath)) {
+        unlinkSync(w.targetPath);
+        console.log('[evolve] reverted: removed', w.targetPath);
+      }
+      continue;
+    }
+    writeFileSync(w.targetPath, w.previousContents, 'utf8');
+    console.log('[evolve] reverted:', w.targetPath);
+  }
 }
 
 async function evolve(): Promise<void> {
@@ -78,20 +102,23 @@ async function evolve(): Promise<void> {
     rootDir: ROOT,
   };
 
-  const planner = createPlanner();
-  const plan = await planner.propose(ctx);
+  // Issues are sacred: prefer the oldest open issue as a quest when feasible.
+  // If gh fails offline or there are no issues, fall back to FakePlanner.
+  const questPlan = preferOpenIssue(ctx);
+  let plan: Plan;
+  if (questPlan) {
+    console.log('[evolve] preferOpenIssue: sacred quest selected');
+    plan = questPlan;
+  } else {
+    const planner = createPlanner();
+    plan = await planner.propose(ctx);
+  }
 
   console.log('[evolve] direction:', plan.direction);
   console.log('[evolve] plan:', plan.summary);
   console.log('[evolve] target:', plan.targetPath);
 
-  // Clear boundary: only write the single planned file (no recursive tree walks).
-  if (!plan.targetPath.startsWith(ROOT)) {
-    throw new Error(`Refuse to write outside repo root: ${plan.targetPath}`);
-  }
-  mkdirSync(dirname(plan.targetPath), { recursive: true });
-  writeFileSync(plan.targetPath, plan.newContents, 'utf8');
-  console.log('[evolve] applied change to', plan.targetPath);
+  applyWrites(allWrites(plan));
 
   const ok = runTests(ROOT);
   if (!ok) {

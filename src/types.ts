@@ -13,7 +13,19 @@ export type Direction =
   | 'haiku'
   | 'motto'
   | 'changelog'
-  | 'palette';
+  | 'palette'
+  | 'deck'
+  | 'sketch'
+  | 'quest'
+  | 'mutate'
+  | 'custom';
+
+/** Optional extra file write applied with the primary plan target (revert-safe). */
+export interface FileWrite {
+  targetPath: string;
+  newContents: string;
+  previousContents: string | null;
+}
 
 export interface Plan {
   /** Which free-range direction this plan chose. */
@@ -28,6 +40,10 @@ export interface Plan {
   commitMessage: string;
   /** Previous contents if the target already existed (for revert). */
   previousContents: string | null;
+  /** Extra files written with the primary target (e.g. ideas/used.json). */
+  extras?: FileWrite[];
+  /** When direction is `custom`, the invented menu id being executed. */
+  customId?: string;
 }
 
 export interface PlannerContext {
@@ -39,4 +55,18 @@ export interface PlannerContext {
 
 export interface Planner {
   propose(ctx: PlannerContext): Promise<Plan>;
+}
+
+/** Harmless markdown-only custom direction invented by `mutate`. */
+export interface CustomDirection {
+  id: string;
+  folder: string;
+  template: string;
+}
+
+/** Minimal GitHub issue shape used by preferOpenIssue / quest. */
+export interface OpenIssue {
+  number: number;
+  title: string;
+  body: string;
 }
