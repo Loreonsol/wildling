@@ -1,2 +1,2 @@
 /** Semver-ish package version; one of FakePlanner's wander targets. */
-export const VERSION = '0.1.1';
+export const VERSION = '0.1.2';
