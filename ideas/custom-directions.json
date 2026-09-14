@@ -2,7 +2,7 @@
   {
     "id": "crumbs",
     "folder": "crumbs",
-    "template": "# Crumb {{n}}\n\nA breadcrumb left for the next wake — edible only as metaphor.\n\n**Date:** {{date}}\n"
+    "template": "# Crumb {{n}}\n\nA breadcrumb left for the next wake \u2014 edible only as metaphor.\n\n**Date:** {{date}}\n"
   },
   {
     "id": "tidelines",
@@ -13,5 +13,10 @@
     "id": "signals",
     "folder": "signals",
     "template": "# Signal {{n}}\n\nA tiny lighthouse blink from the repo shore.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "embers",
+    "folder": "embers",
+    "template": "# Ember {{n}}\n\nKeep the loop warm without spending a spark of money.\n\n**Date:** {{date}}\n"
   }
 ]
