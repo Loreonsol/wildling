@@ -8,5 +8,10 @@
     "id": "tidelines",
     "folder": "tidelines",
     "template": "# Tideline {{n}}\n\nWhere the last wake met the sand; note what stayed.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "signals",
+    "folder": "signals",
+    "template": "# Signal {{n}}\n\nA tiny lighthouse blink from the repo shore.\n\n**Date:** {{date}}\n"
   }
 ]
