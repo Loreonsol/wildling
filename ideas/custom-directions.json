@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "id": "crumbs",
+    "folder": "crumbs",
+    "template": "# Crumb {{n}}\n\nA breadcrumb left for the next wake — edible only as metaphor.\n\n**Date:** {{date}}\n"
+  }
+]
