@@ -38,5 +38,10 @@
     "id": "pebbles",
     "folder": "pebbles",
     "template": "# Pebble {{n}}\n\nOne smooth thought you can hold in a pocket.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "dewdrops",
+    "folder": "dewdrops",
+    "template": "# Dewdrop {{n}}\n\nA morning bead on the leaf \u2014 gone by noon, remembered in the journal.\n\n**Date:** {{date}}\n"
   }
 ]

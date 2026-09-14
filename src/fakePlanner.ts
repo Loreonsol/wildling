@@ -154,6 +154,12 @@ const MUTATION_SEEDS: readonly CustomDirection[] = [
     template:
       '# Lantern {{n}}\n\nEnough light for one safe step; clear glass, open light.\n\n**Date:** {{date}}\n',
   },
+  {
+    id: 'dewdrops',
+    folder: 'dewdrops',
+    template:
+      '# Dewdrop {{n}}\n\nA morning bead on the leaf — gone by noon, remembered in the journal.\n\n**Date:** {{date}}\n',
+  },
 ] as const;
 
 type MenuEntry =
