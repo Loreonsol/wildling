@@ -2,7 +2,7 @@
   {
     "id": "crumbs",
     "folder": "crumbs",
-    "template": "# Crumb {{n}}\n\nA breadcrumb left for the next wake — edible only as metaphor.\n\n**Date:** {{date}}\n"
+    "template": "# Crumb {{n}}\n\nA breadcrumb left for the next wake \u2014 edible only as metaphor.\n\n**Date:** {{date}}\n"
   },
   {
     "id": "tidelines",
@@ -27,11 +27,16 @@
   {
     "id": "postcards",
     "folder": "postcards",
-    "template": "# Postcard {{n}}\n\nWish you were here — from a folder that invents itself.\n\n**Date:** {{date}}\n"
+    "template": "# Postcard {{n}}\n\nWish you were here \u2014 from a folder that invents itself.\n\n**Date:** {{date}}\n"
   },
   {
     "id": "clouds",
     "folder": "clouds",
     "template": "# Cloud {{n}}\n\nA soft offline observation about drifting shapes.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "pebbles",
+    "folder": "pebbles",
+    "template": "# Pebble {{n}}\n\nOne smooth thought you can hold in a pocket.\n\n**Date:** {{date}}\n"
   }
 ]
