@@ -3,5 +3,10 @@
     "id": "crumbs",
     "folder": "crumbs",
     "template": "# Crumb {{n}}\n\nA breadcrumb left for the next wake — edible only as metaphor.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "tidelines",
+    "folder": "tidelines",
+    "template": "# Tideline {{n}}\n\nWhere the last wake met the sand; note what stayed.\n\n**Date:** {{date}}\n"
   }
 ]
