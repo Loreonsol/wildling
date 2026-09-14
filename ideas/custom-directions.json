@@ -43,5 +43,10 @@
     "id": "dewdrops",
     "folder": "dewdrops",
     "template": "# Dewdrop {{n}}\n\nA morning bead on the leaf \u2014 gone by noon, remembered in the journal.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "fireflies",
+    "folder": "fireflies",
+    "template": "# Firefly {{n}}\n\nA brief offline blink \u2014 no lantern required, no cloud billed.\n\n**Date:** {{date}}\n"
   }
 ]
