@@ -28,5 +28,10 @@
     "id": "postcards",
     "folder": "postcards",
     "template": "# Postcard {{n}}\n\nWish you were here — from a folder that invents itself.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "clouds",
+    "folder": "clouds",
+    "template": "# Cloud {{n}}\n\nA soft offline observation about drifting shapes.\n\n**Date:** {{date}}\n"
   }
 ]
