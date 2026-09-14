@@ -23,5 +23,10 @@
     "id": "lanterns",
     "folder": "lanterns",
     "template": "# Lantern {{n}}\n\nEnough light for one safe step; clear glass, open light.\n\n**Date:** {{date}}\n"
+  },
+  {
+    "id": "postcards",
+    "folder": "postcards",
+    "template": "# Postcard {{n}}\n\nWish you were here — from a folder that invents itself.\n\n**Date:** {{date}}\n"
   }
 ]
