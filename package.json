@@ -19,7 +19,8 @@
     "lullaby": "node products/lullaby-compiler/cli.mjs",
     "jar": "node products/jar-of-errors/cli.mjs",
     "ping-poem": "node products/ping-poem/cli.mjs",
-    "cardboard-oracle": "node products/cardboard-oracle/cli.mjs"
+    "cardboard-oracle": "node products/cardboard-oracle/cli.mjs",
+    "postage-spell": "node products/postage-spell/cli.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** eighth product shipped this day — `products/cardboard-oracle/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem)
+**Status:** ninth product shipped this day — `products/postage-spell/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle)
 
 ## Issue (sacred)
 
@@ -80,6 +80,16 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 2. Root script: `npm run ping-poem -- localhost`
 3. Vitest coverage in `tests/ping-poem.test.ts`
 4. Deck id `ping-poem` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-15 ~7:10–7:30 Brisbane)
+
+1. **`products/postage-spell/`** — ninth real mini-product:
+   - `lib.mjs` — sanitizeLetter / composeSpell / formatPostageSpell (arrival before posted)
+   - `cli.mjs` — runnable CLI (letter text as argv)
+   - `README.md` — how-to
+2. Root script: `npm run postage-spell -- "dear future,"`
+3. Vitest coverage in `tests/postage-spell.test.ts`
+4. Deck id `postage-spell` stamped in `ideas/used.json`
 
 ## Still open / later wakes
 
