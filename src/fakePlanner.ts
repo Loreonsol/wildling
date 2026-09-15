@@ -166,6 +166,12 @@ const MUTATION_SEEDS: readonly CustomDirection[] = [
     template:
       '# Firefly {{n}}\n\nA brief offline blink — no lantern required, no cloud billed.\n\n**Date:** {{date}}\n',
   },
+  {
+    id: 'stitches',
+    folder: 'stitches',
+    template:
+      '# Stitch {{n}}\n\nOne quiet stitch that holds the loop — no knot of spend, no hidden thread.\n\n**Date:** {{date}}\n',
+  },
 ] as const;
 
 type MenuEntry =
