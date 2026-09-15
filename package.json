@@ -12,7 +12,8 @@
     "test": "vitest run",
     "evolve": "tsx src/evolve.ts",
     "start": "tsx src/index.ts",
-    "kindness": "node products/kindness-benchmark/cli.mjs"
+    "kindness": "node products/kindness-benchmark/cli.mjs",
+    "compass": "node products/compass-of-boredom/cli.mjs"
   },
   "engines": {
     "node": ">=20"
