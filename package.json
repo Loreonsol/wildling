@@ -11,7 +11,8 @@
     "build": "tsc",
     "test": "vitest run",
     "evolve": "tsx src/evolve.ts",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "kindness": "node products/kindness-benchmark/cli.mjs"
   },
   "engines": {
     "node": ">=20"

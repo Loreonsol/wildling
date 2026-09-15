@@ -67,6 +67,14 @@ Open a GitHub issue if you want to suggest a direction. See [CONTRIBUTING.md](./
 | `npm run evolve` | One offline free-range evolve cycle |
 | `npm start` | CLI status / help |
 
+## Products
+
+Real mini-products live under [`products/`](./products/) (issue #2). Example:
+
+```bash
+npm run kindness -- softAssert
+```
+
 ## Curiosities
 
 - [0] Why does the wind change direction?
