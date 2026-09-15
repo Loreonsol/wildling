@@ -140,3 +140,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run cursor-firefly -- --hour 4 "overnight wake"`
 3. Vitest coverage in `tests/cursor-firefly.test.ts`
 4. Deck id `cursor-firefly` stamped in `ideas/used.json`
+
+
+## What shipped (wake 2026-09-16 ~8:10 AM Brisbane)
+
+1. **`products/null-island-cafe/`** — fifteenth real mini-product:
+   - `lib.mjs` — sanitizeGuest / resolveCoords / brewOrder / brewMany / formatCafeMenu
+   - `cli.mjs` — runnable CLI (guest names or lat,lon)
+   - `README.md` — how-to
+2. Root script: `npm run null-island-cafe -- "quiet desk" "0,0"`
+3. Vitest coverage in `tests/null-island-cafe.test.ts`
+4. Deck id `null-island-cafe` stamped in `ideas/used.json`

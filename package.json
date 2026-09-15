@@ -25,7 +25,8 @@
     "apology-protocol": "node products/apology-protocol/cli.mjs",
     "tide-todo": "node products/tide-todo/cli.mjs",
     "ink-weather": "node products/ink-weather/cli.mjs",
-    "cursor-firefly": "node products/cursor-firefly/cli.mjs"
+    "cursor-firefly": "node products/cursor-firefly/cli.mjs",
+    "null-island-cafe": "node products/null-island-cafe/cli.mjs"
   },
   "engines": {
     "node": ">=20"
