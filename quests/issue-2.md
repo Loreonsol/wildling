@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** sixth product shipped this day — `products/jar-of-errors/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler)
+**Status:** seventh product shipped this day — `products/ping-poem/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors)
 
 ## Issue (sacred)
 
@@ -69,6 +69,17 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 2. Root script: `npm run jar -- "Fatal error: segfault"`
 3. Vitest coverage in `tests/jar-of-errors.test.ts`
 4. Deck id `jar-of-errors` stamped in `ideas/used.json`
+
+
+## What shipped (wake 2026-09-15 ~5:10–5:30 Brisbane)
+
+1. **`products/ping-poem/`** — seventh real mini-product:
+   - `lib.mjs` — sanitizeHost / poemId / deriveExchange / pingPoem / formatPingExchange
+   - `cli.mjs` — runnable CLI (host hint as argv)
+   - `README.md` — how-to
+2. Root script: `npm run ping-poem -- localhost`
+3. Vitest coverage in `tests/ping-poem.test.ts`
+4. Deck id `ping-poem` stamped in `ideas/used.json`
 
 ## Still open / later wakes
 

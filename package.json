@@ -17,7 +17,8 @@
     "soft-assert": "node products/soft-assert/cli.mjs",
     "dream-diff": "node products/dream-diff/cli.mjs",
     "lullaby": "node products/lullaby-compiler/cli.mjs",
-    "jar": "node products/jar-of-errors/cli.mjs"
+    "jar": "node products/jar-of-errors/cli.mjs",
+    "ping-poem": "node products/ping-poem/cli.mjs"
   },
   "engines": {
     "node": ">=20"
