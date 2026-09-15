@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** twelfth product shipped this day — `products/tide-todo/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle, postage-spell, regex-familiar, apology-protocol)
+**Status:** sixteenth product shipped — `products/patchwork-passport/` (ferry-timetable already stamped; fallback). Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -151,3 +151,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run null-island-cafe -- "quiet desk" "0,0"`
 3. Vitest coverage in `tests/null-island-cafe.test.ts`
 4. Deck id `null-island-cafe` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~9:10 AM Brisbane)
+
+1. **`products/patchwork-passport/`** — sixteenth real mini-product:
+   - `lib.mjs` — sanitizeFolder / stampFolder / stampMany / formatPassport (ink / visa / station / advice banks)
+   - `cli.mjs` — runnable CLI (one or more folder paths)
+   - `README.md` — how-to
+2. Root script: `npm run patchwork-passport -- "packages/core" "apps/web"`
+3. Vitest coverage in `tests/patchwork-passport.test.ts`
+4. Deck id `patchwork-passport` stamped in `ideas/used.json`
+5. Note: locked direction `ferry-timetable` was already in `ideas/used.json` (no product folder); fell back to first unused `patchwork-passport`

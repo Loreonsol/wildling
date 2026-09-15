@@ -21,3 +21,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [ink-weather](./ink-weather/) | `npm run ink-weather -- "place A" "place B"` | Weather report where precip is colored ink |
 | [cursor-firefly](./cursor-firefly/) | `npm run cursor-firefly -- --hour 4 "moment"` | Day caret / night firefly creature |
 | [null-island-cafe](./null-island-cafe/) | `npm run null-island-cafe -- "guest" "0,0"` | Cafe at Null Island serving coords as coffee |
+| [patchwork-passport](./patchwork-passport/) | `npm run patchwork-passport -- "packages/core"` | Passport stamps for monorepo folders |
