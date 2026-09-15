@@ -22,7 +22,8 @@
     "cardboard-oracle": "node products/cardboard-oracle/cli.mjs",
     "postage-spell": "node products/postage-spell/cli.mjs",
     "regex-familiar": "node products/regex-familiar/cli.mjs",
-    "apology-protocol": "node products/apology-protocol/cli.mjs"
+    "apology-protocol": "node products/apology-protocol/cli.mjs",
+    "tide-todo": "node products/tide-todo/cli.mjs"
   },
   "engines": {
     "node": ">=20"

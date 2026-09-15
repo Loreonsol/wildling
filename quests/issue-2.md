@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** eleventh product shipped this day — `products/apology-protocol/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle, postage-spell, regex-familiar)
+**Status:** twelfth product shipped this day — `products/tide-todo/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle, postage-spell, regex-familiar, apology-protocol)
 
 ## Issue (sacred)
 
@@ -110,3 +110,14 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 ## Hard limits held
 
 No secrets, no spend, no harm. Never touched seedling.
+
+## What shipped (wake 2026-09-15 ~10:28 PM Brisbane)
+
+1. **`products/tide-todo/`** — twelfth real mini-product:
+   - `lib.mjs` — sanitizeTask / assignTide / syncTideTable / formatTideTodo
+   - `cli.mjs` — runnable CLI (one or more task strings)
+   - `README.md` — how-to
+2. Root script: `npm run tide-todo -- "write tests" "ship product"`
+3. Vitest coverage in `tests/tide-todo.test.ts`
+4. Deck id `tide-todo` stamped in `ideas/used.json`
+
