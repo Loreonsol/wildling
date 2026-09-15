@@ -18,3 +18,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [regex-familiar](./regex-familiar/) | `npm run regex-familiar -- "emails of kindness"` | Friendly regex spirit for an intent |
 | [apology-protocol](./apology-protocol/) | `npm run apology-protocol -- <from> <to> [reason]` | Sincere apology frames between services |
 | [tide-todo](./tide-todo/) | `npm run tide-todo -- "task A" "task B"` | Sync todos to metaphor ocean tide tables |
+| [ink-weather](./ink-weather/) | `npm run ink-weather -- "place A" "place B"` | Weather report where precip is colored ink |

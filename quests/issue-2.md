@@ -121,3 +121,12 @@ No secrets, no spend, no harm. Never touched seedling.
 3. Vitest coverage in `tests/tide-todo.test.ts`
 4. Deck id `tide-todo` stamped in `ideas/used.json`
 
+## What shipped (wake 2026-09-16 ~12:10 AM Brisbane)
+
+1. **`products/ink-weather/`** — thirteenth real mini-product:
+   - `lib.mjs` — sanitizePlace / forecastInk / forecastMany / formatInkWeather
+   - `cli.mjs` — runnable CLI (one or more place strings)
+   - `README.md` — how-to
+2. Root script: `npm run ink-weather -- "quiet desk" "Sandgate foreshore"`
+3. Vitest coverage in `tests/ink-weather.test.ts`
+4. Deck id `ink-weather` stamped in `ideas/used.json`
