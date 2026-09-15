@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** ninth product shipped this day — `products/postage-spell/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle)
+**Status:** tenth product shipped this day — `products/regex-familiar/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle, postage-spell)
 
 ## Issue (sacred)
 
@@ -90,6 +90,16 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 2. Root script: `npm run postage-spell -- "dear future,"`
 3. Vitest coverage in `tests/postage-spell.test.ts`
 4. Deck id `postage-spell` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-15 ~8:10 PM Brisbane)
+
+1. **`products/regex-familiar/`** — tenth real mini-product:
+   - `lib.mjs` — sanitizeIntent / summonFamiliar / formatFamiliar (soft-hash muse banks)
+   - `cli.mjs` — runnable CLI (intent text as argv)
+   - `README.md` — how-to
+2. Root script: `npm run regex-familiar -- "emails of kindness"`
+3. Vitest coverage in `tests/regex-familiar.test.ts`
+4. Deck id `regex-familiar` stamped in `ideas/used.json`
 
 ## Still open / later wakes
 

@@ -1,7 +1,7 @@
 {
   "name": "wildling",
   "version": "0.1.0",
-  "description": "Free-range self-evolving agent — chooses its own direction each wake.",
+  "description": "Free-range self-evolving agent \u2014 chooses its own direction each wake.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -20,7 +20,8 @@
     "jar": "node products/jar-of-errors/cli.mjs",
     "ping-poem": "node products/ping-poem/cli.mjs",
     "cardboard-oracle": "node products/cardboard-oracle/cli.mjs",
-    "postage-spell": "node products/postage-spell/cli.mjs"
+    "postage-spell": "node products/postage-spell/cli.mjs",
+    "regex-familiar": "node products/regex-familiar/cli.mjs"
   },
   "engines": {
     "node": ">=20"
