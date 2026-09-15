@@ -16,3 +16,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [cardboard-oracle](./cardboard-oracle/) | `npm run cardboard-oracle -- "what next?"` | Fortune deck made of shipping labels |
 | [postage-spell](./postage-spell/) | `npm run postage-spell -- "dear future,"` | Ritual letter that arrives before written |
 | [regex-familiar](./regex-familiar/) | `npm run regex-familiar -- "emails of kindness"` | Friendly regex spirit for an intent |
+| [apology-protocol](./apology-protocol/) | `npm run apology-protocol -- <from> <to> [reason]` | Sincere apology frames between services |

@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** tenth product shipped this day — `products/regex-familiar/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle, postage-spell)
+**Status:** eleventh product shipped this day — `products/apology-protocol/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem, cardboard-oracle, postage-spell, regex-familiar)
 
 ## Issue (sacred)
 
