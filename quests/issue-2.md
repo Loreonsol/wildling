@@ -49,6 +49,17 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 3. Vitest coverage in `tests/dream-diff.test.ts`
 4. Deck id `dream-diff` stamped in `ideas/used.json`
 
+
+## What shipped (wake 2026-09-15 ~3:15 Brisbane)
+
+1. **`products/lullaby-compiler/`** — fifth real mini-product:
+   - `lib.mjs` — tokenizeSource / toLullabySyllables / compileToLullaby / formatLullabyReport
+   - `cli.mjs` — runnable CLI (source as argv string(s))
+   - `README.md` — how-to
+2. Root script: `npm run lullaby -- "const soft = true"`
+3. Vitest coverage in `tests/lullaby-compiler.test.ts`
+4. Deck id `lullaby-compiler` stamped in `ideas/used.json`
+
 ## Still open / later wakes
 
 - More mini-products when inspiration fits (tiny-rogue playable, generators, other unused deck ids)

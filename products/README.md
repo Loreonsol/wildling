@@ -10,3 +10,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [compass-of-boredom](./compass-of-boredom/) | `npm run compass -- .` | Point at the blandest file in a tree |
 | [soft-assert](./soft-assert/) | `npm run soft-assert -- 42 42` | Fail gently with a hug and a tip |
 | [dream-diff](./dream-diff/) | `npm run dream-diff -- "dream A" "dream B"` | Diff two dreams; highlight shared symbols |
+| [lullaby-compiler](./lullaby-compiler/) | `npm run lullaby -- "const x = 1"` | Compile source into lullabies (never executes) |
