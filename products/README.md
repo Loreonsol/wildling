@@ -13,3 +13,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [lullaby-compiler](./lullaby-compiler/) | `npm run lullaby -- "const x = 1"` | Compile source into lullabies (never executes) |
 | [jar-of-errors](./jar-of-errors/) | `npm run jar -- "Fatal error"` | Soften & seal cute error messages in a jar |
 | [ping-poem](./ping-poem/) | `npm run ping-poem -- localhost` | Poem shaped like an ICMP ping exchange |
+| [cardboard-oracle](./cardboard-oracle/) | `npm run cardboard-oracle -- "what next?"` | Fortune deck made of shipping labels |

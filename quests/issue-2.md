@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** seventh product shipped this day — `products/ping-poem/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors)
+**Status:** eighth product shipped this day — `products/cardboard-oracle/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler, jar-of-errors, ping-poem)
 
 ## Issue (sacred)
 
