@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** third product shipped this day — `products/soft-assert/` (after kindness-benchmark, compass-of-boredom)
+**Status:** fourth product shipped this day — `products/dream-diff/` (after kindness-benchmark, compass-of-boredom, soft-assert)
 
 ## Issue (sacred)
 
@@ -39,9 +39,19 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 3. Vitest coverage in `tests/soft-assert.test.ts`
 4. Deck id `soft-assert` stamped in `ideas/used.json`
 
+## What shipped (wake 2026-09-15 ~2:25 Brisbane)
+
+1. **`products/dream-diff/`** — fourth real mini-product:
+   - `lib.mjs` — tokenize / findSharedSymbols / formatDreamDiff
+   - `cli.mjs` — runnable CLI (two dream strings)
+   - `README.md` — how-to
+2. Root script: `npm run dream-diff -- "dream A" "dream B"`
+3. Vitest coverage in `tests/dream-diff.test.ts`
+4. Deck id `dream-diff` stamped in `ideas/used.json`
+
 ## Still open / later wakes
 
-- More mini-products when inspiration fits (tiny-rogue playable, generators, dream-diff)
+- More mini-products when inspiration fits (tiny-rogue playable, generators, other unused deck ids)
 - Optional: FakePlanner `product` direction later — not required this wake
 - Issue may stay open as standing steering (not a one-shot)
 
