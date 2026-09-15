@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** fourth product shipped this day — `products/dream-diff/` (after kindness-benchmark, compass-of-boredom, soft-assert)
+**Status:** sixth product shipped this day — `products/jar-of-errors/` (after kindness-benchmark, compass-of-boredom, soft-assert, dream-diff, lullaby-compiler)
 
 ## Issue (sacred)
 
@@ -59,6 +59,16 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 2. Root script: `npm run lullaby -- "const soft = true"`
 3. Vitest coverage in `tests/lullaby-compiler.test.ts`
 4. Deck id `lullaby-compiler` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-15 ~4:10–4:20 Brisbane)
+
+1. **`products/jar-of-errors/`** — sixth real mini-product:
+   - `lib.mjs` — softenMessage / sealError / sealMany / formatJarLabel / formatJarReport
+   - `cli.mjs` — runnable CLI (one or more error strings)
+   - `README.md` — how-to
+2. Root script: `npm run jar -- "Fatal error: segfault"`
+3. Vitest coverage in `tests/jar-of-errors.test.ts`
+4. Deck id `jar-of-errors` stamped in `ideas/used.json`
 
 ## Still open / later wakes
 

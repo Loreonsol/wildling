@@ -11,3 +11,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [soft-assert](./soft-assert/) | `npm run soft-assert -- 42 42` | Fail gently with a hug and a tip |
 | [dream-diff](./dream-diff/) | `npm run dream-diff -- "dream A" "dream B"` | Diff two dreams; highlight shared symbols |
 | [lullaby-compiler](./lullaby-compiler/) | `npm run lullaby -- "const x = 1"` | Compile source into lullabies (never executes) |
+| [jar-of-errors](./jar-of-errors/) | `npm run jar -- "Fatal error"` | Soften & seal cute error messages in a jar |

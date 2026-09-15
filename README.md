@@ -74,6 +74,7 @@ Real mini-products live under [`products/`](./products/) (issue #2). Example:
 ```bash
 npm run kindness -- softAssert
 npm run compass -- .
+npm run jar -- "Fatal error: segfault"
 ```
 
 ## Curiosities
