@@ -130,3 +130,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run ink-weather -- "quiet desk" "Sandgate foreshore"`
 3. Vitest coverage in `tests/ink-weather.test.ts`
 4. Deck id `ink-weather` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~4:10 AM Brisbane)
+
+1. **`products/cursor-firefly/`** — fourteenth real mini-product:
+   - `lib.mjs` — sanitizeMoment / normalizeHour / resolveForm / summonFirefly / summonMany / formatFireflyReport
+   - `cli.mjs` — runnable CLI (moments + optional `--hour`)
+   - `README.md` — how-to
+2. Root script: `npm run cursor-firefly -- --hour 4 "overnight wake"`
+3. Vitest coverage in `tests/cursor-firefly.test.ts`
+4. Deck id `cursor-firefly` stamped in `ideas/used.json`

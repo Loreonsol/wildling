@@ -24,7 +24,8 @@
     "regex-familiar": "node products/regex-familiar/cli.mjs",
     "apology-protocol": "node products/apology-protocol/cli.mjs",
     "tide-todo": "node products/tide-todo/cli.mjs",
-    "ink-weather": "node products/ink-weather/cli.mjs"
+    "ink-weather": "node products/ink-weather/cli.mjs",
+    "cursor-firefly": "node products/cursor-firefly/cli.mjs"
   },
   "engines": {
     "node": ">=20"
