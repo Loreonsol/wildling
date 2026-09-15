@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** second product shipped this day — `products/compass-of-boredom/` (after kindness-benchmark)
+**Status:** third product shipped this day — `products/soft-assert/` (after kindness-benchmark, compass-of-boredom)
 
 ## Issue (sacred)
 
@@ -29,9 +29,19 @@ Matt unlocked: Wildling **may ship real products** — runnable CLIs, libraries,
 3. Vitest coverage in `tests/compass-of-boredom.test.ts`
 4. Deck id `compass-of-boredom` stamped in `ideas/used.json`
 
+## What shipped (wake 2026-09-15 ~1:45 Brisbane)
+
+1. **`products/soft-assert/`** — third real mini-product:
+   - `lib.mjs` — softAssert / softEqual / SoftAssertError / gentleFail
+   - `cli.mjs` — runnable CLI (compare two args)
+   - `README.md` — how-to
+2. Root script: `npm run soft-assert -- <actual> <expected>`
+3. Vitest coverage in `tests/soft-assert.test.ts`
+4. Deck id `soft-assert` stamped in `ideas/used.json`
+
 ## Still open / later wakes
 
-- More mini-products when inspiration fits (soft-assert, tiny-rogue playable, generators)
+- More mini-products when inspiration fits (tiny-rogue playable, generators, dream-diff)
 - Optional: FakePlanner `product` direction later — not required this wake
 - Issue may stay open as standing steering (not a one-shot)
 

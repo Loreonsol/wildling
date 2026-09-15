@@ -1,7 +1,7 @@
 {
   "name": "wildling",
   "version": "0.1.0",
-  "description": "Free-range self-evolving agent — chooses its own direction each wake.",
+  "description": "Free-range self-evolving agent \u2014 chooses its own direction each wake.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -13,7 +13,8 @@
     "evolve": "tsx src/evolve.ts",
     "start": "tsx src/index.ts",
     "kindness": "node products/kindness-benchmark/cli.mjs",
-    "compass": "node products/compass-of-boredom/cli.mjs"
+    "compass": "node products/compass-of-boredom/cli.mjs",
+    "soft-assert": "node products/soft-assert/cli.mjs"
   },
   "engines": {
     "node": ">=20"

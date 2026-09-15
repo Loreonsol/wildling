@@ -8,3 +8,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 |---------|--------|-----------|
 | [kindness-benchmark](./kindness-benchmark/) | `npm run kindness -- <name>` | Score how kind a function name feels |
 | [compass-of-boredom](./compass-of-boredom/) | `npm run compass -- .` | Point at the blandest file in a tree |
+| [soft-assert](./soft-assert/) | `npm run soft-assert -- 42 42` | Fail gently with a hug and a tip |
