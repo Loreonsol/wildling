@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** twenty-first product shipped — `products/cloud-recipe/`. Issue left open as standing steering.
+**Status:** twenty-fourth product shipped — `products/kangaroo-point-clock/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -232,3 +232,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run southbank-labyrinth -- "Quiet Jetty" "neon EXIT?"`
 3. Vitest coverage in `tests/southbank-labyrinth.test.ts`
 4. Deck id `southbank-labyrinth` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~5:10–5:25pm Brisbane)
+
+1. **`products/kangaroo-point-clock/`** — twenty-fourth real mini-product:
+   - `lib.mjs` — sanitizeMoment / normalizeHour / pickCliffFace / pickTickSound / buildHaiku / tickClock / tickMany / formatClock (cliff-faces / tick-sounds / hour-moods / clock-note banks; soft-hash deterministic 5-7-5)
+   - `cli.mjs` — runnable CLI (moments + optional `--hour`)
+   - `README.md` — how-to
+2. Root script: `npm run kangaroo-point-clock -- --hour 17 "Story Bridge dusk"`
+3. Vitest coverage in `tests/kangaroo-point-clock.test.ts`
+4. Deck id `kangaroo-point-clock` stamped in `ideas/used.json`

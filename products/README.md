@@ -29,3 +29,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [cloud-recipe](./cloud-recipe/) | `npm run cloud-recipe -- "afternoon cumulus"` | Afternoon clouds → edible meringue (joke) |
 | [bug-parade](./bug-parade/) | `npm run bug-parade -- "null pointer plaza"` | Parade route for bugs leaving legacy code |
 | [southbank-labyrinth](./southbank-labyrinth/) | `npm run southbank-labyrinth -- "Quiet Jetty"` | Sticky-note labyrinth under South Bank |
+| [kangaroo-point-clock](./kangaroo-point-clock/) | `npm run kangaroo-point-clock -- --hour 17 "Story Bridge dusk"` | Cliff-face clock at Kangaroo Point that ticks in haiku |
