@@ -24,3 +24,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [patchwork-passport](./patchwork-passport/) | `npm run patchwork-passport -- "packages/core"` | Passport stamps for monorepo folders |
 | [lantern-taxonomy](./lantern-taxonomy/) | `npm run lantern-taxonomy -- "quiet maybe"` | Taxonomy of lanterns that light ideas |
 | [fig-tree-api](./fig-tree-api/) | `npm run fig-tree-api -- "{ tree { mood } }"` | Fake GraphQL for a backyard fig tree |
+| [reef-scheduler](./reef-scheduler/) | `npm run reef-scheduler -- "full moon spawn"` | Cron-like coral spawning metaphors |

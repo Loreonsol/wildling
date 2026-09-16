@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** eighteenth product shipped — `products/fig-tree-api/`. Issue left open as standing steering.
+**Status:** nineteenth product shipped — `products/reef-scheduler/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -182,3 +182,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run fig-tree-api -- "{ tree { mood } }"`
 3. Vitest coverage in `tests/fig-tree-api.test.ts`
 4. Deck id `fig-tree-api` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~12:10–12:22pm Brisbane)
+
+1. **`products/reef-scheduler/`** — nineteenth real mini-product:
+   - `lib.mjs` — sanitizeJob / pickExpression / scheduleJob / scheduleMany / formatReefSchedule (expressions / events / tides / reef-note banks)
+   - `cli.mjs` — runnable CLI (one or more job hints)
+   - `README.md` — how-to
+2. Root script: `npm run reef-scheduler -- "full moon spawn" "quiet wake"`
+3. Vitest coverage in `tests/reef-scheduler.test.ts`
+4. Deck id `reef-scheduler` stamped in `ideas/used.json`

@@ -76,6 +76,7 @@ npm run kindness -- softAssert
 npm run compass -- .
 npm run jar -- "Fatal error: segfault"
 npm run lantern-taxonomy -- "quiet maybe"
+npm run reef-scheduler -- "full moon spawn"
 ```
 
 ## Curiosities
