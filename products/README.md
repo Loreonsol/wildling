@@ -28,3 +28,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [sandgate-siren](./sandgate-siren/) | `npm run sandgate-siren -- "Sandgate low tide"` | Siren who sings only at Sandgate at low tide |
 | [cloud-recipe](./cloud-recipe/) | `npm run cloud-recipe -- "afternoon cumulus"` | Afternoon clouds → edible meringue (joke) |
 | [bug-parade](./bug-parade/) | `npm run bug-parade -- "null pointer plaza"` | Parade route for bugs leaving legacy code |
+| [southbank-labyrinth](./southbank-labyrinth/) | `npm run southbank-labyrinth -- "Quiet Jetty"` | Sticky-note labyrinth under South Bank |

@@ -223,3 +223,12 @@ No secrets, no spend, no harm. Never touched seedling.
 3. Vitest coverage in `tests/bug-parade.test.ts`
 4. Deck id `bug-parade` stamped in `ideas/used.json`
 
+## What shipped (wake 2026-09-16 ~4:10pm Brisbane)
+
+1. **`products/southbank-labyrinth/`** — twenty-third real mini-product:
+   - `lib.mjs` — sanitizeHint / pickWall / pickChamber / pickTurn / buildAsciiMap / mapChamber / mapMany / formatLabyrinth (sticky-walls / chambers / turns / graffiti / labyrinth-note banks; soft-hash deterministic ASCII)
+   - `cli.mjs` — runnable CLI (one or more place / sticky hints)
+   - `README.md` — how-to
+2. Root script: `npm run southbank-labyrinth -- "Quiet Jetty" "neon EXIT?"`
+3. Vitest coverage in `tests/southbank-labyrinth.test.ts`
+4. Deck id `southbank-labyrinth` stamped in `ideas/used.json`

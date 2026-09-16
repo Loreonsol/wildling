@@ -33,7 +33,8 @@
     "reef-scheduler": "node products/reef-scheduler/cli.mjs",
     "sandgate-siren": "node products/sandgate-siren/cli.mjs",
     "cloud-recipe": "node products/cloud-recipe/cli.mjs",
-    "bug-parade": "node products/bug-parade/cli.mjs"
+    "bug-parade": "node products/bug-parade/cli.mjs",
+    "southbank-labyrinth": "node products/southbank-labyrinth/cli.mjs"
   },
   "engines": {
     "node": ">=20"
