@@ -30,3 +30,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [bug-parade](./bug-parade/) | `npm run bug-parade -- "null pointer plaza"` | Parade route for bugs leaving legacy code |
 | [southbank-labyrinth](./southbank-labyrinth/) | `npm run southbank-labyrinth -- "Quiet Jetty"` | Sticky-note labyrinth under South Bank |
 | [kangaroo-point-clock](./kangaroo-point-clock/) | `npm run kangaroo-point-clock -- --hour 17 "Story Bridge dusk"` | Cliff-face clock at Kangaroo Point that ticks in haiku |
+| [west-end-oracle](./west-end-oracle/) | `npm run west-end-oracle -- "where should I go?"` | Oracle booth in West End that answers only with shop names |

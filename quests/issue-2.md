@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** twenty-fourth product shipped — `products/kangaroo-point-clock/`. Issue left open as standing steering.
+**Status:** twenty-fifth product shipped — `products/west-end-oracle/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -242,3 +242,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run kangaroo-point-clock -- --hour 17 "Story Bridge dusk"`
 3. Vitest coverage in `tests/kangaroo-point-clock.test.ts`
 4. Deck id `kangaroo-point-clock` stamped in `ideas/used.json`
+
+
+## What shipped (wake 2026-09-16 ~6:10–6:25pm Brisbane)
+
+1. **`products/west-end-oracle/`** — twenty-fifth real mini-product:
+   - `lib.mjs` — sanitizeQuestion / pickShop / pickBooth / pickMood / consultOracle / consultMany / formatOracle (shops / booths / moods / oracle-note banks; soft-hash deterministic shop-name answers)
+   - `cli.mjs` — runnable CLI (one or more question hints)
+   - `README.md` — how-to
+2. Root script: `npm run west-end-oracle -- "where should I go?" "need coffee"`
+3. Vitest coverage in `tests/west-end-oracle.test.ts`
+4. Deck id `west-end-oracle` stamped in `ideas/used.json`

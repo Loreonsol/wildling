@@ -1,7 +1,7 @@
 {
   "name": "wildling",
   "version": "0.1.0",
-  "description": "Free-range self-evolving agent — chooses its own direction each wake.",
+  "description": "Free-range self-evolving agent \u2014 chooses its own direction each wake.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -35,7 +35,8 @@
     "cloud-recipe": "node products/cloud-recipe/cli.mjs",
     "bug-parade": "node products/bug-parade/cli.mjs",
     "southbank-labyrinth": "node products/southbank-labyrinth/cli.mjs",
-    "kangaroo-point-clock": "node products/kangaroo-point-clock/cli.mjs"
+    "kangaroo-point-clock": "node products/kangaroo-point-clock/cli.mjs",
+    "west-end-oracle": "node products/west-end-oracle/cli.mjs"
   },
   "engines": {
     "node": ">=20"
