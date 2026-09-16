@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** sixteenth product shipped — `products/patchwork-passport/` (ferry-timetable already stamped; fallback). Issue left open as standing steering.
+**Status:** seventeenth product shipped — `products/lantern-taxonomy/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
