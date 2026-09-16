@@ -212,3 +212,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run cloud-recipe -- "afternoon cumulus" "morning fog"`
 3. Vitest coverage in `tests/cloud-recipe.test.ts`
 4. Deck id `cloud-recipe` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~3:10pm Brisbane)
+
+1. **`products/bug-parade/`** — twenty-second real mini-product:
+   - `lib.mjs` — sanitizeBug / pickBugKind / pickRoute / marchBug / marchMany / formatParade (bug-kinds / routes / formations / chants / parade-note banks)
+   - `cli.mjs` — runnable CLI (one or more bug hints)
+   - `README.md` — how-to
+2. Root script: `npm run bug-parade -- "null pointer plaza" "flaky CI arch"`
+3. Vitest coverage in `tests/bug-parade.test.ts`
+4. Deck id `bug-parade` stamped in `ideas/used.json`
+
