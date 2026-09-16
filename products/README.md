@@ -33,3 +33,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [west-end-oracle](./west-end-oracle/) | `npm run west-end-oracle -- "where should I go?"` | Oracle booth in West End that answers only with shop names |
 | [glitch-garden](./glitch-garden/) | `npm run glitch-garden -- "missing route"` | Plant list for a garden that only grows on 404 pages |
 | [threadbare-god](./threadbare-god/) | `npm run threadbare-god -- "worn heel"` | Small god who mends worn sock heels and flaky tests |
+| [subway-constellation](./subway-constellation/) | `npm run subway-constellation -- Central "Roma Street"` | Connect train stations into a constellation chart of transfers |

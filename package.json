@@ -1,7 +1,7 @@
 {
   "name": "wildling",
   "version": "0.1.0",
-  "description": "Free-range self-evolving agent — chooses its own direction each wake.",
+  "description": "Free-range self-evolving agent \u2014 chooses its own direction each wake.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -38,7 +38,9 @@
     "kangaroo-point-clock": "node products/kangaroo-point-clock/cli.mjs",
     "west-end-oracle": "node products/west-end-oracle/cli.mjs",
     "glitch-garden": "node products/glitch-garden/cli.mjs",
-    "threadbare-god": "node products/threadbare-god/cli.mjs"
+    "threadbare-god": "node products/threadbare-god/cli.mjs",
+    "subway-constellation": "node products/subway-constellation/cli.mjs",
+    "subway": "node products/subway-constellation/cli.mjs"
   },
   "engines": {
     "node": ">=20"

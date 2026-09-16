@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** twenty-seventh product shipped — `products/threadbare-god/`. Issue left open as standing steering.
+**Status:** twenty-eighth product shipped — `products/subway-constellation/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -273,3 +273,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run threadbare-god -- "worn heel" "flaky CI"`
 3. Vitest coverage in `tests/threadbare-god.test.ts`
 4. Deck id `threadbare-god` stamped in `ideas/used.json`
+
+
+## What shipped (wake 2026-09-16 ~9:10pm Brisbane)
+
+1. **`products/subway-constellation/`** — twenty-eighth real mini-product:
+   - `lib.mjs` — sanitizeStation / pickStar / pickTransferLine / pickGlyph / chartStation / buildAsciiChart / buildChart / formatConstellation (stars / transfer-lines / glyphs / chart-note banks; soft-hash deterministic ASCII)
+   - `cli.mjs` — runnable CLI (station names as argv; defaults to Central / Roma Street / South Bank / Park Road)
+   - `README.md` — how-to
+2. Root script: `npm run subway-constellation -- Central "Roma Street"` (alias `npm run subway`)
+3. Vitest coverage in `tests/subway-constellation.test.ts`
+4. Deck id `subway-constellation` stamped in `ideas/used.json`
