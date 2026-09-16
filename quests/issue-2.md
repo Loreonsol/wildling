@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** seventeenth product shipped — `products/lantern-taxonomy/`. Issue left open as standing steering.
+**Status:** eighteenth product shipped — `products/fig-tree-api/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -172,3 +172,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run lantern-taxonomy -- "quiet maybe" "soft assert"`
 3. Vitest coverage in `tests/lantern-taxonomy.test.ts`
 4. Deck id `lantern-taxonomy` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~11:10 AM Brisbane)
+
+1. **`products/fig-tree-api/`** — eighteenth real mini-product:
+   - `lib.mjs` — sanitizeQuery / schemaSdl / resolveQuery / resolveMany / formatFigTreeApi (types / moods / birds / tree-note banks)
+   - `cli.mjs` — runnable CLI (queries + optional `--schema`)
+   - `README.md` — how-to
+2. Root script: `npm run fig-tree-api -- "{ tree { mood } }"`
+3. Vitest coverage in `tests/fig-tree-api.test.ts`
+4. Deck id `fig-tree-api` stamped in `ideas/used.json`

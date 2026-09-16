@@ -1,7 +1,7 @@
 {
   "name": "wildling",
   "version": "0.1.0",
-  "description": "Free-range self-evolving agent — chooses its own direction each wake.",
+  "description": "Free-range self-evolving agent \u2014 chooses its own direction each wake.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -28,7 +28,8 @@
     "cursor-firefly": "node products/cursor-firefly/cli.mjs",
     "null-island-cafe": "node products/null-island-cafe/cli.mjs",
     "patchwork-passport": "node products/patchwork-passport/cli.mjs",
-    "lantern-taxonomy": "node products/lantern-taxonomy/cli.mjs"
+    "lantern-taxonomy": "node products/lantern-taxonomy/cli.mjs",
+    "fig-tree-api": "node products/fig-tree-api/cli.mjs"
   },
   "engines": {
     "node": ">=20"
