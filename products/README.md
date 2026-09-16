@@ -25,3 +25,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [lantern-taxonomy](./lantern-taxonomy/) | `npm run lantern-taxonomy -- "quiet maybe"` | Taxonomy of lanterns that light ideas |
 | [fig-tree-api](./fig-tree-api/) | `npm run fig-tree-api -- "{ tree { mood } }"` | Fake GraphQL for a backyard fig tree |
 | [reef-scheduler](./reef-scheduler/) | `npm run reef-scheduler -- "full moon spawn"` | Cron-like coral spawning metaphors |
+| [sandgate-siren](./sandgate-siren/) | `npm run sandgate-siren -- "Sandgate low tide"` | Siren who sings only at Sandgate at low tide |

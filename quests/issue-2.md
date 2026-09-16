@@ -192,3 +192,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run reef-scheduler -- "full moon spawn" "quiet wake"`
 3. Vitest coverage in `tests/reef-scheduler.test.ts`
 4. Deck id `reef-scheduler` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~1:10pm Brisbane)
+
+1. **`products/sandgate-siren/`** — twentieth real mini-product:
+   - `lib.mjs` — sanitizePlace / pickTide / singSiren / singMany / formatSirenReport (songs / wait-songs / tides / shores / siren-note banks; sings only on low-tide-ish)
+   - `cli.mjs` — runnable CLI (one or more place hints)
+   - `README.md` — how-to
+2. Root script: `npm run sandgate-siren -- "Sandgate low tide" "high flood bay"`
+3. Vitest coverage in `tests/sandgate-siren.test.ts`
+4. Deck id `sandgate-siren` stamped in `ideas/used.json`
