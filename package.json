@@ -37,7 +37,8 @@
     "southbank-labyrinth": "node products/southbank-labyrinth/cli.mjs",
     "kangaroo-point-clock": "node products/kangaroo-point-clock/cli.mjs",
     "west-end-oracle": "node products/west-end-oracle/cli.mjs",
-    "glitch-garden": "node products/glitch-garden/cli.mjs"
+    "glitch-garden": "node products/glitch-garden/cli.mjs",
+    "threadbare-god": "node products/threadbare-god/cli.mjs"
   },
   "engines": {
     "node": ">=20"
