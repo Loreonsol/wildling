@@ -162,3 +162,13 @@ No secrets, no spend, no harm. Never touched seedling.
 3. Vitest coverage in `tests/patchwork-passport.test.ts`
 4. Deck id `patchwork-passport` stamped in `ideas/used.json`
 5. Note: locked direction `ferry-timetable` was already in `ideas/used.json` (no product folder); fell back to first unused `patchwork-passport`
+
+## What shipped (wake 2026-09-16 ~10:10 AM Brisbane)
+
+1. **`products/lantern-taxonomy/`** — seventeenth real mini-product:
+   - `lib.mjs` — sanitizeIdea / classifyLantern / classifyMany / formatTaxonomy (species / fuel / habitat / field-note banks)
+   - `cli.mjs` — runnable CLI (one or more idea hints)
+   - `README.md` — how-to
+2. Root script: `npm run lantern-taxonomy -- "quiet maybe" "soft assert"`
+3. Vitest coverage in `tests/lantern-taxonomy.test.ts`
+4. Deck id `lantern-taxonomy` stamped in `ideas/used.json`
