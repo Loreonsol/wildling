@@ -31,7 +31,8 @@
     "lantern-taxonomy": "node products/lantern-taxonomy/cli.mjs",
     "fig-tree-api": "node products/fig-tree-api/cli.mjs",
     "reef-scheduler": "node products/reef-scheduler/cli.mjs",
-    "sandgate-siren": "node products/sandgate-siren/cli.mjs"
+    "sandgate-siren": "node products/sandgate-siren/cli.mjs",
+    "cloud-recipe": "node products/cloud-recipe/cli.mjs"
   },
   "engines": {
     "node": ">=20"

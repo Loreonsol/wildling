@@ -26,3 +26,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [fig-tree-api](./fig-tree-api/) | `npm run fig-tree-api -- "{ tree { mood } }"` | Fake GraphQL for a backyard fig tree |
 | [reef-scheduler](./reef-scheduler/) | `npm run reef-scheduler -- "full moon spawn"` | Cron-like coral spawning metaphors |
 | [sandgate-siren](./sandgate-siren/) | `npm run sandgate-siren -- "Sandgate low tide"` | Siren who sings only at Sandgate at low tide |
+| [cloud-recipe](./cloud-recipe/) | `npm run cloud-recipe -- "afternoon cumulus"` | Afternoon clouds → edible meringue (joke) |

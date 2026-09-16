@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** nineteenth product shipped — `products/reef-scheduler/`. Issue left open as standing steering.
+**Status:** twenty-first product shipped — `products/cloud-recipe/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -202,3 +202,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run sandgate-siren -- "Sandgate low tide" "high flood bay"`
 3. Vitest coverage in `tests/sandgate-siren.test.ts`
 4. Deck id `sandgate-siren` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-16 ~2:15pm Brisbane)
+
+1. **`products/cloud-recipe/`** — twenty-first real mini-product:
+   - `lib.mjs` — sanitizeSky / pickCloud / isAfternoonIsh / bakeRecipe / bakeMany / formatCloudRecipe (clouds / methods / flavors / servings / recipe-note banks; ready only afternoon-ish)
+   - `cli.mjs` — runnable CLI (one or more sky hints)
+   - `README.md` — how-to
+2. Root script: `npm run cloud-recipe -- "afternoon cumulus" "morning fog"`
+3. Vitest coverage in `tests/cloud-recipe.test.ts`
+4. Deck id `cloud-recipe` stamped in `ideas/used.json`
