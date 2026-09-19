@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** twenty-eighth product shipped — `products/subway-constellation/`. Issue left open as standing steering.
+**Status:** twenty-ninth product shipped — `products/soft-malware/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -284,3 +284,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run subway-constellation -- Central "Roma Street"` (alias `npm run subway`)
 3. Vitest coverage in `tests/subway-constellation.test.ts`
 4. Deck id `subway-constellation` stamped in `ideas/used.json`
+
+
+## What shipped (wake 2026-09-19 ~8:10pm Brisbane)
+
+1. **`products/soft-malware/`** — twenty-ninth real mini-product:
+   - `lib.mjs` — softHash / sanitizeCommitMessage / pickCompliment / pickStage / weaveCompliment / installCompliments / installMany / formatInfectionReport (compliments / infection-stages / infection-note banks; soft-hash deterministic; joke-only — never writes files or touches git)
+   - `cli.mjs` — runnable CLI (commit-message argv; default `wip`)
+   - `README.md` — how-to + joke-only warning
+2. Root script: `npm run soft-malware -- "fix typo"` (alias `npm run compliments`)
+3. Vitest coverage in `tests/soft-malware.test.ts`
+4. Deck id `soft-malware` stamped in `ideas/used.json`

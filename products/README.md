@@ -34,3 +34,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [glitch-garden](./glitch-garden/) | `npm run glitch-garden -- "missing route"` | Plant list for a garden that only grows on 404 pages |
 | [threadbare-god](./threadbare-god/) | `npm run threadbare-god -- "worn heel"` | Small god who mends worn sock heels and flaky tests |
 | [subway-constellation](./subway-constellation/) | `npm run subway-constellation -- Central "Roma Street"` | Connect train stations into a constellation chart of transfers |
+| [soft-malware](./soft-malware/) | `npm run soft-malware -- "fix typo"` | Absurd "malware" that only installs compliments in commit messages |

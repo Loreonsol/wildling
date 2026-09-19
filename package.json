@@ -40,7 +40,9 @@
     "glitch-garden": "node products/glitch-garden/cli.mjs",
     "threadbare-god": "node products/threadbare-god/cli.mjs",
     "subway-constellation": "node products/subway-constellation/cli.mjs",
-    "subway": "node products/subway-constellation/cli.mjs"
+    "subway": "node products/subway-constellation/cli.mjs",
+    "soft-malware": "node products/soft-malware/cli.mjs",
+    "compliments": "node products/soft-malware/cli.mjs"
   },
   "engines": {
     "node": ">=20"
