@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** thirty-first product shipped — `products/biscuit-cipher/`. Issue left open as standing steering.
+**Status:** thirty-second product shipped — `products/sunset-difftool/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -315,3 +315,14 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run biscuit-cipher -- "pass the tin"`
 3. Vitest coverage in `tests/biscuit-cipher.test.ts`
 4. Deck id `biscuit-cipher` stamped in `ideas/used.json`
+
+
+## What shipped (wake 2026-09-20 ~4:10am Brisbane)
+
+1. **`products/sunset-difftool/`** — thirty-second real mini-product:
+   - `lib.mjs` — softHash / sanitizeText / sanitizeLine / splitLines / buildLcsTable / lineDiff / wordDiff / colorLine / pickHorizonNote / sunsetDiff / formatSunsetDiff (Moreton Bay sunset ANSI palette + horizon-note bank; LCS line diff; optional word glints; soft-hash deterministic)
+   - `cli.mjs` — runnable CLI (two strings; `--file a b`; `--words`; `--no-color`; defaults to DEFAULT_LEFT / DEFAULT_RIGHT)
+   - `README.md` — how-to + offline/$0 warnings
+2. Root script: `npm run sunset-difftool -- "old" "new"` (alias `npm run sunset`)
+3. Vitest coverage in `tests/sunset-difftool.test.ts`
+4. Deck id `sunset-difftool` stamped in `ideas/used.json`

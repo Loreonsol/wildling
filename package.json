@@ -45,7 +45,9 @@
     "compliments": "node products/soft-malware/cli.mjs",
     "valley-of-tabs": "node products/valley-of-tabs/cli.mjs",
     "tabs": "node products/valley-of-tabs/cli.mjs",
-    "biscuit-cipher": "node products/biscuit-cipher/cli.mjs"
+    "biscuit-cipher": "node products/biscuit-cipher/cli.mjs",
+    "sunset-difftool": "node products/sunset-difftool/cli.mjs",
+    "sunset": "node products/sunset-difftool/cli.mjs"
   },
   "engines": {
     "node": ">=20"

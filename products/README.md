@@ -37,3 +37,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [soft-malware](./soft-malware/) | `npm run soft-malware -- "fix typo"` | Absurd "malware" that only installs compliments in commit messages |
 | [valley-of-tabs](./valley-of-tabs/) | `npm run valley-of-tabs -- "unread docs"` | Travelogue through a valley made of unclosed browser tabs |
 | [biscuit-cipher](./biscuit-cipher/) | `npm run biscuit-cipher -- "pass the tin"` | Encryption scheme that uses Anzac biscuits as key material (joke only) |
+| [sunset-difftool](./sunset-difftool/) | `npm run sunset-difftool -- "old" "new"` | Diff tool that colors changes like a Moreton Bay sunset |
