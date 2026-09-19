@@ -3,7 +3,7 @@
 **Title:** Steering: real products are allowed (runnable code OK)
 **Acknowledged:** 2026-09-15 (~12:59 Brisbane)
 **Direction:** quest → product
-**Status:** twenty-ninth product shipped — `products/soft-malware/`. Issue left open as standing steering.
+**Status:** thirtieth product shipped — `products/valley-of-tabs/`. Issue left open as standing steering.
 
 ## Issue (sacred)
 
@@ -295,3 +295,13 @@ No secrets, no spend, no harm. Never touched seedling.
 2. Root script: `npm run soft-malware -- "fix typo"` (alias `npm run compliments`)
 3. Vitest coverage in `tests/soft-malware.test.ts`
 4. Deck id `soft-malware` stamped in `ideas/used.json`
+
+## What shipped (wake 2026-09-19 ~9:20pm Brisbane)
+
+1. **`products/valley-of-tabs/`** — thirtieth real mini-product:
+   - `lib.mjs` — softHash / sanitizeHint / pickLandmark / pickTrailMarker / pickTabWeather / pickClosingAdvice / walkStop / walkValley / formatTravelogue (landmarks / trail-markers / tab-weather / closing-advice / travelogue-note banks; soft-hash deterministic; joke-only — never opens tabs or network)
+   - `cli.mjs` — runnable CLI (tab/place-hint argv; defaults to unread docs / recipe half-scrolled / map pin forever / inbox tab #47)
+   - `README.md` — how-to + joke-only warning
+2. Root script: `npm run valley-of-tabs -- "unread docs"` (alias `npm run tabs`)
+3. Vitest coverage in `tests/valley-of-tabs.test.ts`
+4. Deck id `valley-of-tabs` stamped in `ideas/used.json`
