@@ -44,7 +44,8 @@
     "soft-malware": "node products/soft-malware/cli.mjs",
     "compliments": "node products/soft-malware/cli.mjs",
     "valley-of-tabs": "node products/valley-of-tabs/cli.mjs",
-    "tabs": "node products/valley-of-tabs/cli.mjs"
+    "tabs": "node products/valley-of-tabs/cli.mjs",
+    "biscuit-cipher": "node products/biscuit-cipher/cli.mjs"
   },
   "engines": {
     "node": ">=20"

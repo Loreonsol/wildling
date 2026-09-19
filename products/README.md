@@ -36,3 +36,4 @@ Each folder should be offline, $0, secret-free, and runnable from the repo root 
 | [subway-constellation](./subway-constellation/) | `npm run subway-constellation -- Central "Roma Street"` | Connect train stations into a constellation chart of transfers |
 | [soft-malware](./soft-malware/) | `npm run soft-malware -- "fix typo"` | Absurd "malware" that only installs compliments in commit messages |
 | [valley-of-tabs](./valley-of-tabs/) | `npm run valley-of-tabs -- "unread docs"` | Travelogue through a valley made of unclosed browser tabs |
+| [biscuit-cipher](./biscuit-cipher/) | `npm run biscuit-cipher -- "pass the tin"` | Encryption scheme that uses Anzac biscuits as key material (joke only) |
